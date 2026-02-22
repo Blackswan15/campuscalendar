@@ -1,0 +1,29 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.App::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHBxMXF6c2FtYmw3MGIxNG5qbGllendhd24zaWI5aDFqbXRxMDc2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rcFs59ww1R7yeFszmo/giphy.gif") no-repeat center center;
+  background-size: cover;
+  z-index: -2;
+}
+
+.App::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  color: white;
+  z-index: 1;
+  font-family: "Lacquer", system-ui;
+}

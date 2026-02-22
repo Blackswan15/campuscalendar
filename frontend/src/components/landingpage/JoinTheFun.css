@@ -1,0 +1,68 @@
+.join-section {
+  min-height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 40px;
+}
+
+.join-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.join-title {
+  font-size: 2.2rem;
+  margin: 0 0 25px 0;
+}
+
+.join-right {
+  flex: 0.6;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-illustration {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.join-input {
+  display: block;
+  width: 80%;
+  padding: 8px 12px;
+  margin: 0 auto 12px auto;
+  border: 2px solid #555;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  background: transparent;
+  color: inherit;
+}
+
+.join-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.join-btn {
+  padding: 8px 22px;
+  border: 2px solid #555;
+  background: rgba(0,0,0,0.15);
+  color: inherit;
+  font-family: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.join-btn:hover {
+  background: rgba(0,0,0,0.3);
+}

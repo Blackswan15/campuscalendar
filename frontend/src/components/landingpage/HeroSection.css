@@ -1,0 +1,84 @@
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 60px 40px 60px;
+  position: relative;
+}
+
+.hero-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin: 0 0 10px 0;
+  line-height: 1.15;
+}
+
+.hero-subtitle {
+  font-size: 1.4rem;
+  margin: 0 0 8px 0;
+  opacity: 0.85;
+  font-style: italic;
+}
+
+.hero-tagline {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.hero-right {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-doodles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.doodle-item {
+  display: inline-block;
+}
+
+.big-stage {
+  font-size: 4rem;
+}
+
+.scroll-hint {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.95rem;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+
+.explore-btn {
+  padding: 8px 22px;
+  border: 2px solid #555;
+  background: white;
+  color: black;
+  font-family: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.explore-btn:hover {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  
+}
