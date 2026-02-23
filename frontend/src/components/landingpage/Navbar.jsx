@@ -1,11 +1,11 @@
 import React from 'react';
 import './Navbar.css';
-
+import logo from '../../assets/logo.png';
 const Navbar = () => {
     return(
         <nav className="navbar">
             <div className="navbar-logo">
-                <h1>Campus Calendar</h1>
+                <img src={logo} alt="Campus Calendar Logo" />
             </div>
             <ul className="navbar-links">
                 <li><a href="/">Home</a></li>
