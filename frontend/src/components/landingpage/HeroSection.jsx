@@ -6,8 +6,8 @@ function HeroSection() {
   return (
     <section className="hero-section" id="hero">
       <div className="hero-left">
-        <h1 className="hero-title">Kongu Engineering College</h1>
-        <p className="hero-subtitle">Event Management System</p>
+        <h1 className="hero-title">Campus Calendar</h1>
+        <p className="hero-subtitle">Event Managment Portal by A2C</p>
         <p className="hero-tagline">Plan. Participate. Celebrate. 🎉</p>
       </div>
       <div className="hero-right">
